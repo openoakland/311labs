@@ -1,9 +1,12 @@
-311 Labs
+Open Oakland Labs
 ====================
 
 this is a static site generator using [backbone-boilerplate](https://github.com/backbone-boilerplate/backbone-boilerplate)
 
+it was forked from https://github.com/codeforamerica/311labs
+
 ## getting it to run
+
 First install the grunt-cli globally once with: `npm install grunt-cli -g` then:
 
 ```
