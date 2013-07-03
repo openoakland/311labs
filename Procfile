@@ -1,1 +1,1 @@
-web: bbb release server:release
+web: grunt release connect:release
