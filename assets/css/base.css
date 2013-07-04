@@ -49,7 +49,7 @@ select:focus:required:invalid:focus {
 }
 .nav li.selected {
   font-weight: 700;
-  background: url('/assets/img/triangle.png') no-repeat bottom center;
+  background: url('assets/img/triangle.png') no-repeat bottom center;
 }
 .navbar-inner .container {
   max-height: 90px;
