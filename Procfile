@@ -1,1 +1,1 @@
-web: grunt release connect:release
+web: grunt default connect:all:keepalive
