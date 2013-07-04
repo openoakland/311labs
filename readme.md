@@ -1,7 +1,7 @@
 Open Oakland Labs
 ====================
 
-this is a static site generator using [backbone-boilerplate](https://github.com/backbone-boilerplate/backbone-boilerplate)
+this is a static site generator using [grunt](https://gruntjs.com)
 
 it was forked from https://github.com/codeforamerica/311labs
 
@@ -20,4 +20,4 @@ npm start
 npm run build
 ```
 
-The static site will be generated to the `dist/release/` folder.
+The static site will be generated to the `dist/` folder.
