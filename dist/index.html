@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>OpenOakland Labs</title>
+
+  <!-- Application styles -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-responsive.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+
+</head>
+
+<body id="index">
+  <!-- Main container -->
+  <div role="main" id="main">
+
+    <div class="navbar-inner">
+  <div class="container">
+    <div class="row">
+      <div class="span12 navbar">
+        <ul class="nav">
+          <li class="experiments"><a href="/experiments.html">Experiments</a></li>
+          <li class="open311"><a href="http://open311.org/" target="_blank">Open311</a></li>
+          <li class="logo hidden-phone"><a href="/"><img src="/assets/img/labs_logo.png"></a></li>
+          <li class="about"><a href="/about.html">About</a></li>
+          <li class="contactus"><a href="/contact-us.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="phonelogo visible-phone"><a href="/"><img src="/assets/img/labs_logo.png"></a></div>
+
+
+<div class="visible-phone">
+ <img src="assets/img/welcome_small.jpg" alt="Welcome to 311 Labs" />
+</div>
+
+<div class="banner hidden-phone">
+  <div class="container">
+    <div class="row">
+     <div class="span12 banner-image">
+       <img class="welcome"src="assets/img/welcome.png" alt="Welcome" />
+       <img class="beaker" src="assets/img/beaker2.png" alt="Beaker" />
+       <img class="tagline" src="assets/img/labs.png" alt="Pushing the boundaries of civic data - one service request at a time" />
+     </div>
+    </div>
+  </div>
+</div>  
+
+<div class="featured-app background">
+  <div class="container">
+    
+    <div class="row">
+      <div class="span5 offset1 app">
+        <h1><img class="star" src="assets/img/star.jpg">FEATURED APP:</h1>
+        <img class="screenshot" src="assets/img/daily_brief_screenshot.jpg" alt="The Daily Brief" />
+      </div>
+      <div class="span6 blurb">
+        <img src="assets/img/daily_brief_logo.jpg" alt="The Daily Brief logo" />
+        <p>Get a snapshot of what is going on in your city now based on Open311&nbsp;data.</p>
+        <h2>Check out cities that are currently using it:</h2>
+        <ul class="unstyled cities">
+          <li><a href="http://dailybrief.311labs.org/boston" target="_blank">Boston, MA</a></li>
+          <li><a href="http://dailybrief.311labs.org/baltimore" target="_blank">Baltimore, MD</a></li>
+          <li><a href="http://dailybrief.311labs.org/bloomington" target="_blank">Bloomington, IN</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span11 offset1 citysignup">
+        <h3>Want The Daily Brief in your city? Let our scientists know!</h3>
+        <form onSubmit="return false;">
+          <input type="email" id="emailAddress" class="input-text" required="required" name="emailAddress" placeholder="ENTER YOUR EMAIL">
+          <input type="text" id="city" class="input-text" required="required" name="city" placeholder="ENTER YOUR CITY">
+          <input type="submit" id="submit-email-city" class="button" value="SUBMIT">
+        </form>
+      </div>  
+    </div> 
+
+  </div>
+</div>
+
+<div class="broughtby">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <div class="center">
+          <a href="http://openoakland.org" target="_blank"><img src="assets/img/openoakland-logo.png" alt="Open Oakland logo" /></a>
+          <span style="position: relative; left: 40px;">A Code for America Brigade</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="span6 emailsignup">
+        <form onSubmit="return false;">
+          <label>Civic experiments, delivered!</label>
+          <input type="email" id="emailAddress" class="input-text" required="required" name="emailAddress" placeholder="ENTER YOUR EMAIL">
+          <input type="submit" id="submit-email" class="small-button" value="JOIN">
+        </form>
+      </div>
+      <div class="span6">  
+        <ul class="unstyled">
+          <li><a href="/experiments.html">Experiments</a></li>
+          <li><a href="http://open311.org/" target="_blank">Open311</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact-us.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <div class="modal hide" id="contact-modal">
+  <div class="modal-header">
+    <img src="assets/img/heart.png" alt="heart" />
+
+    <!-- this will close the modal without taking you to the main page -->
+    <!-- <button type="button" class="close" data-dismiss="modal">×</button> -->
+    <h2>Thanks for your interest!</h2>
+  </div>
+  <div class="modal-body">
+    <p>We'll be in touch with you soon. Have a data-rific day!</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" id="confirm-submission" class="btn" data-dismiss="modal">OK!</button>
+  </div>
+</div>
+
+  <script src="assets/js/index.js"></script>
+</body>
+</html>

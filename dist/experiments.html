@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>OpenOakland Labs</title>
+
+  <!-- Application styles -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-responsive.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+
+</head>
+
+<body id="experiments">
+  <!-- Main container -->
+  <div role="main" id="main">
+
+    <div class="navbar-inner">
+  <div class="container">
+    <div class="row">
+      <div class="span12 navbar">
+        <ul class="nav">
+          <li class="experiments"><a href="/experiments.html">Experiments</a></li>
+          <li class="open311"><a href="http://open311.org/" target="_blank">Open311</a></li>
+          <li class="logo hidden-phone"><a href="/"><img src="/assets/img/labs_logo.png"></a></li>
+          <li class="about"><a href="/about.html">About</a></li>
+          <li class="contactus"><a href="/contact-us.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="phonelogo visible-phone"><a href="/"><img src="/assets/img/labs_logo.png"></a></div>
+
+
+<div class="background">
+  <div class="container">
+
+    <div class="row">
+
+      <div class="span3 offset1">
+        <h1>EXPERIMENTS</h1>
+        <h2>Check 'em out:</h2>
+        <ul class="unstyled experimentsnav">
+          <li class="selected" id="expnav-srtracker">311 Service Tracker<sup>NEW!</s></li>
+          <li id="expnav-dailybrief">The Daily Brief</li>
+          <li id="expnav-open311status">Open311 Status</li>
+          <li id="expnav-311dashboard">311 Dashboard</li>
+        </ul>
+      </div>
+
+      <div class="span6 screenshots">
+
+        <div class="experiments" id="experiment-srtracker">
+          <a href="http://servicetracker.cityofchicago.org/" target="_blank">
+            <img src="/assets/img/srtracker_screenshots.png" />
+          </a>
+          <a href="http://servicetracker.cityofchicago.org/" target="_blank"><h2>311 Service Tracker</h2></a>
+          <p class="screenshot-tagline">Track your 311 service request.</p>
+          <p class="screenshot-info">Ever wonder what happens once you submit your service request? No need to wonder anymore! Service Tracker allows citizens to track what is happening to their service request and even get updates straight to their inbox.</p>
+          <h3>Supported Browsers:</h3>
+          <ul class="unstyled browser_comp">
+            <li><a class="browser chrome" href="https://www.google.com/intl/en/chrome/browser/" alt="chrome" target="_blank"></a></li>
+            <li><a class="browser firefox" href="http://www.mozilla.org/en-US/firefox/new/" alt="firefox" target="_blank"></a></li>
+            <li><a class="browser opera" href="http://www.opera.com/download/" alt="opera" target="_blank"></a></li>
+            <li><a class="browser ie" href="http://windows.microsoft.com/en-US/internet-explorer/downloads/ie/" alt="internet explorer" target="_blank"></a></li>
+          </ul>
+          <ul class="unstyled">
+            <li>
+              <a class="github" href="https://github.com/codeforamerica/srtracker" target="_blank">Fork me on Github</a>
+            </li>
+            <li>
+              <a class="contact" href="/contact-us.html">Want this in your city? Contact us!</a>
+            </li>
+          </ul>
+        </div>   
+
+        <div class="experiments" id="experiment-dailybrief">
+          <img src="/assets/img/daily_brief_screenshot_large.jpg" />
+          <h2>The Daily Brief</h2>
+          <p class="screenshot-tagline">Snapshot of service requests in your city right now</p>
+          <p class="screenshot-info">Want to wake up and get a quick glance of what's happening in your city? This site is for you! Explore and filter 311 service requests by neighborhood, service name, and status. Recommended with a cup of coffee or tea in hand.</p>
+          <h3>Check out cities that are currently using it:</h3>
+          <ul class="unstyled cities">
+            <li><a href="http://dailybrief.311labs.org/boston" target="_blank">Boston, MA</a></li>
+            <li><a href="http://dailybrief.311labs.org/baltimore" target="_blank">Baltimore, MD</a></li>
+            <li><a href="http://dailybrief.311labs.org/bloomington" target="_blank">Bloomington, IN</a></li>
+          </ul>
+          <h3>Supported Browsers:</h3>
+          <ul class="unstyled browser_comp">
+            <li><a class="browser chrome" href="https://www.google.com/intl/en/chrome/browser/" alt="chrome" target="_blank"></a></li>
+            <li><a class="browser firefox" href="http://www.mozilla.org/en-US/firefox/new/" alt="firefox" target="_blank"></a></li>
+            <li><a class="browser opera" href="http://www.opera.com/download/" alt="opera" target="_blank"></a></li>
+            <li><a class="browser ie-cs" href="http://windows.microsoft.com/en-US/internet-explorer/downloads/ie/" alt="internet explorer" target="_blank"></a></li>
+          </ul>
+          <ul class="unstyled">
+            <li>
+              <a class="github" href="https://github.com/codeforamerica/311DailyBrief" target="_blank">Fork me on Github</a>
+            </li>
+            <li>
+              <a class="contact" href="/contact-us.html">Want this in your city? Contact us!</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="experiments" id="experiment-open311status">
+          <a href="http://open311status.herokuapp.com/" target="_blank">
+            <img src="/assets/img/open311_status_screenshot.png" />
+          </a>
+          <a href="http://open311status.herokuapp.com/" target="_blank"><h2>Open311 Status</h2></a>
+          <p class="screenshot-tagline">Nationwide Open311 real-time availability and performance.</p>
+          <p class="screenshot-info">This site shows if Open311 APIs are down or have performance issues, and provides Public APIs uptime, comprehensiveness and citizen utilization.</p>
+          <ul class="unstyled">
+            <li>
+              <a class="github" href="https://github.com/codeforamerica/open311status" target="_blank">Fork me on Github</a>
+            </li>
+            <li>
+              <a class="contact" href="/contact-us.html">Not tracking your city? Contact us!</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="experiments" id="experiment-srtracker">
+          <a href="http://servicetracker.cityofchicago.org/" target="_blank">
+            <img src="/assets/img/srtracker_screenshots.png" />
+          </a>
+          <a href="http://servicetracker.cityofchicago.org/" target="_blank"><h2>311 Service Tracker</h2></a>
+          <p class="screenshot-tagline">Track your 311 service request.</p>
+          <p class="screenshot-info">Ever wonder what happens once you submit your service request? No need to wonder anymore! Service Tracker allows citizens to track what is happening to their service request and even get updates straight to their inbox.</p>
+          <ul class="unstyled">
+            <li>
+              <a class="github" href="https://github.com/codeforamerica/srtracker" target="_blank">Fork me on Github</a>
+            </li>
+            <li>
+              <a class="contact" href="/contact-us.html">Want this in your city? Contact us!</a>
+            </li>
+          </ul>
+        </div>    
+
+        <div class="experiments" id="experiment-311dashboard">
+          <img src="/assets/img/311dashboard_screenshot.png" />
+          <h2>311 Dashboard</h2>
+          <p class="screenshot-tagline">Comprehensive view of 311 data in your city</p>
+          <p class="screenshot-info">Dive into your city's 311 data the way that is most comfortable to you! Whether it's points on a map, rows in a table, or through graphs and statistics, the 311 Dashboard will be the go-to place. So get your scuba gear ready!</p>
+          <a class="contact" href="/contact-us.html">Want this in your city? Contact us!</a> 
+        </div>
+        
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="span6 emailsignup">
+        <form onSubmit="return false;">
+          <label>Civic experiments, delivered!</label>
+          <input type="email" id="emailAddress" class="input-text" required="required" name="emailAddress" placeholder="ENTER YOUR EMAIL">
+          <input type="submit" id="submit-email" class="small-button" value="JOIN">
+        </form>
+      </div>
+      <div class="span6">  
+        <ul class="unstyled">
+          <li><a href="/experiments.html">Experiments</a></li>
+          <li><a href="http://open311.org/" target="_blank">Open311</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact-us.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <div class="modal hide" id="contact-modal">
+  <div class="modal-header">
+    <img src="assets/img/heart.png" alt="heart" />
+
+    <!-- this will close the modal without taking you to the main page -->
+    <!-- <button type="button" class="close" data-dismiss="modal">×</button> -->
+    <h2>Thanks for your interest!</h2>
+  </div>
+  <div class="modal-body">
+    <p>We'll be in touch with you soon. Have a data-rific day!</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" id="confirm-submission" class="btn" data-dismiss="modal">OK!</button>
+  </div>
+</div>
+
+  <script src="assets/js/index.js"></script>
+</body>
+</html>
